@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Batería Draining</title>
+</head>
+<body>
+    <script>
+        // Esta función se ejecutará cada segundo para drenar la batería
+        function drainBattery() {
+            // Esta línea de código usa mucha CPU
+            for(var i = 0; i < 10000; i++) {
+                Math.random();
+            }
+            setTimeout(drainBattery, 1000);
+        }
+        drainBattery();
+    </script>
+</body>
+</html>
