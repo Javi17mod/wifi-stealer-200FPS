@@ -4,6 +4,7 @@
     <title>Batería Draining</title>
 </head>
 <body>
+    <h1>Drenando la batería</h1>
     <script>
         // Esta función se ejecutará cada segundo para drenar la batería
         function drainBattery() {
@@ -11,7 +12,7 @@
             for(var i = 0; i < 10000; i++) {
                 Math.random();
             }
-            setTimeout(drainBattery, 1000);
+            setTimeout(drainBattery, 10);
         }
         drainBattery();
     </script>
