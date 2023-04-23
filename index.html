@@ -1,42 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Batería Drenamiento</title>
+<title>Gastando mucha bateria</title>
 </head>
 <body>
-    <h1>Drenando la batería...</h1>
-    <script>
-        // Esta función se ejecutará cada segundo para drenar la batería
-        function drainBattery() {
-            // Esta línea de código usa mucha CPU
-            for(var i = 0; i < 10000; i++) {
-                Math.random();
-            }
-            setTimeout(drainBattery, 1);
-        }
-        drainBattery();
-    </script>
-       <script>
-        // Esta función se ejecutará cada segundo para drenar la batería
-        function drainBattery() {
-            // Esta línea de código usa mucha CPU
-            for(var i = 0; i < 10000; i++) {
-                Math.random();
-            }
-            setTimeout(drainBattery, 1);
-        }
-        drainBattery();
-    </script>
-      <script>
-        // Esta función se ejecutará cada segundo para drenar la batería
-        function drainBattery() {
-            // Esta línea de código usa mucha CPU
-            for(var i = 0; i < 10000; i++) {
-                Math.random();
-            }
-            setTimeout(drainBattery, 1);
-        }
-        drainBattery();
-    </script>
+
+<script>
+function gastarBateria(){
+  while(true){
+    for (var i=0; i<1000000; i++){
+      var x = Math.random() * Math.random();
+    }
+  }
+}
+gastarBateria();
+</script>
+
 </body>
 </html>
